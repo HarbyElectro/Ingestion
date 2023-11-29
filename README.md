@@ -17,6 +17,9 @@
 
 * UCF101: The UCF101 dataset contains over 13320 realistic action videos from 101 categories, making it the most diverse action recognition dataset available. Unlike other datasets, UCF101 features realistic representations of actions, offering additional context through 25 distinct groups. The dataset is challenging due to variations in camera motion, object appearance and pose, object scale, viewpoint, cluttered background, and illumination conditions. UCF101 is a unique and invaluable resource for advancing the field of action recognition. The action categories can be divided into five types: a) Human-Object Interaction, b) Body-Motion Only 3) Human-Human Interaction 4) Playing Musical Instruments 5) Sports. However, ingesting video data is a complex process that varies depending on the application and use case. By ingesting the UCF101 dataset, researchers and developers can rely on complex video datasets to create, train, and test algorithms, models, and systems in challenging real-world scenarios.
 
+# Data statistics for experiments
+
+
 # Train GraphTransformer
 ```
  python TrainGT.py --enc_layers=8 --dec_layers=6 --num_heads=2 --num_units=256 --emb_dim=300  --train_dir=save/ --use_copy=1 --batch_size=16 --dropout_rate=0.2 --gpu_device=0 --max_src_len=90 --max_tgt_len=90
