@@ -26,22 +26,6 @@
  ```
 # Implemenation
 
-* 
-
-     
-
-* 
-
-     ![image](https://user-images.githubusercontent.com/77679146/114119206-34aba280-98b8-11eb-9b41-3e2a39a56901.png)
-     ![image](https://user-images.githubusercontent.com/77679146/114119220-3bd2b080-98b8-11eb-9a4e-5ad98c285112.png)
-* For implementation of the models, convolution-block is added to the code of both models.
-* Due to hardware limiations LSTM decoding couldn't be used but it's already implemented.
-
-# Evaluation and Resutls
-* The checkpoints of the training epochs are dumped to the "save" folder due to the limitation on the size of the epochs checkpoints. It cannot be uploaded.
-* For model evaluation, the resutls of expermiemnts are in the "results" folder.
-* The results folder contains the log file of the expermients alongside with the reference and prediction files for each experiment.
-
 ```
 python Evaluation.py
 ```
