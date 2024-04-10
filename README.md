@@ -19,13 +19,5 @@
 
 # Data statistics for experiments
 
+![image](https://github.com/HarbyElectro/Ingestion/assets/152432979/5b5f793f-d2d9-4f84-9429-e6e0862cdfbc)
 
-# Train GraphTransformer
-```
- python TrainGT.py --enc_layers=8 --dec_layers=6 --num_heads=2 --num_units=256 --emb_dim=300  --train_dir=save/ --use_copy=1 --batch_size=16 --dropout_rate=0.2 --gpu_device=0 --max_src_len=90 --max_tgt_len=90
- ```
-# Implemenation
-
-```
-python Evaluation.py
-```
