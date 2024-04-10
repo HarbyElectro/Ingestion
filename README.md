@@ -21,3 +21,4 @@
 
 ![image](https://github.com/HarbyElectro/Ingestion/assets/152432979/5b5f793f-d2d9-4f84-9429-e6e0862cdfbc)
 
+SmartIngest © 2024 by Ahmed Harby is licensed under CC BY 4.0 
