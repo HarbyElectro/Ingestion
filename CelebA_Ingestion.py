@@ -27,6 +27,29 @@ import csv
 #from org.python.core.util import StringUtil
 import warnings
 
+def fxn():
+    warnings.warn("deprecated", DeprecationWarning)
+
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore")
+    fxn()
+
+# Or if you are using > Python 3.11:
+with warnings.catch_warnings(action="ignore"):
+    fxn()
+
+
+builder = pyspark.sql.SparkSession.builder.appName("MyApp") \
+    .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
+    .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")\
+    .config("spark.executor.extraJavaOptions", "-XX:+UseG1GC")\
+    .config("spark.executor.memory", "8g")\
+    .config("spark.driver.memory", "6g")
+spark = configure_spark_with_delta_pip(builder).getOrCreate()
+
+spark.sparkContext.setLogLevel("INFO")
+
+
 def CelebA():
     
     root_directory=""
