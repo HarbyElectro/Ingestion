@@ -54,7 +54,7 @@ spark.sparkContext.setLogLevel("INFO")
 
 
 def MobiAct():
-    root_directory="E:/MobiAct\MobiAct_Dataset_v2.0/Annotated Data/"
+    root_directory=""
     
     def list_of_files(root_path):
         files = []
