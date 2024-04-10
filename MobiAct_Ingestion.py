@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr  9 22:14:04 2024
-
-@author: Ahmed Harby
-"""
-
 from delta import *
 import pyspark
 from pyspark.sql.functions import *
