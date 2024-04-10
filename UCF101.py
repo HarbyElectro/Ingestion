@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 30 21:45:24 2023
-
-@author: Ahmed Harby
-"""
-
 from pyspark.sql import SparkSession
 import os
 from delta import *
