@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 25 11:21:03 2023
-
-@author: Ahmed Harby
-"""
 from delta import *
 from delta.tables import *
 from delta.tables import DeltaTable
