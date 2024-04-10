@@ -37,7 +37,7 @@ spark = configure_spark_with_delta_pip(builder).getOrCreate()
 spark.sparkContext.setLogLevel("INFO")
 
 # Define the root directory where video files are located
-root_directory = "E:/Video_Dataset/dataset/"
+root_directory = ""
 
 
 
