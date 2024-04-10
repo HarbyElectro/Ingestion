@@ -29,7 +29,7 @@ import warnings
 
 def CelebA():
     
-    root_directory="E:/AUTO_en/CelebA/archive/"
+    root_directory=""
     
     def list_of_images(root_path):
         files = []
