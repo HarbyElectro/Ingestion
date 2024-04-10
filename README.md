@@ -17,7 +17,7 @@
 
 * UCF101: The UCF101 dataset contains over 13320 realistic action videos from 101 categories, making it the most diverse action recognition dataset available. Unlike other datasets, UCF101 features realistic representations of actions, offering additional context through 25 distinct groups. The dataset is challenging due to variations in camera motion, object appearance and pose, object scale, viewpoint, cluttered background, and illumination conditions. UCF101 is a unique and invaluable resource for advancing the field of action recognition. The action categories can be divided into five types: a) Human-Object Interaction, b) Body-Motion Only 3) Human-Human Interaction 4) Playing Musical Instruments 5) Sports. However, ingesting video data is a complex process that varies depending on the application and use case. By ingesting the UCF101 dataset, researchers and developers can rely on complex video datasets to create, train, and test algorithms, models, and systems in challenging real-world scenarios.
 
-# Data statistics for experiments
+# Data Pipelines
 
 ![image](https://github.com/HarbyElectro/Ingestion/assets/152432979/5b5f793f-d2d9-4f84-9429-e6e0862cdfbc)
 
