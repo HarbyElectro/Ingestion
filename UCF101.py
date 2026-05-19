@@ -15,7 +15,6 @@ import pandas as pd
 import gc
 from pyspark import StorageLevel
 
-# Your code here
 
 
 builder = pyspark.sql.SparkSession.builder.appName("MyApp") \
