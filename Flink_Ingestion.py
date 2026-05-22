@@ -32,8 +32,6 @@ import time
 
 df = pd.read_csv('E:/MobiAct\MobiAct_Dataset_v2.0/Annotated Data/BSC/BSC_1_1_annotated.csv')
 
-
-
 def emit_one_record_per_second(element):
     c=0
     print("CSV record {c} successfully ingested.")
