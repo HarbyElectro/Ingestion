@@ -15,10 +15,6 @@ import gc
 from pyspark import StorageLevel
 import psutil
 import csv
-#from java.io.charset import StandardCharsets
-#from org.apache.commons.io import IOUtils
-#from org.apache.nifi.processor.io import StreamCallback
-#from org.python.core.util import StringUtil
 import warnings
 
 def fxn():
