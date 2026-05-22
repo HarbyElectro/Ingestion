@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "name": "MobiAct",
+      "path": "data/MobiAct",
+      "modality": "structured",
+      "ingestion_mode": "batch",
+      "target_table": "mobiact_sensor_data",
+      "worker": "direct"
+    },
+    {
+      "name": "IMDb",
+      "path": "data/IMDb",
+      "modality": "structured",
+      "ingestion_mode": "batch",
+      "target_table": "imdb_movies",
+      "worker": "direct"
+    },
+    {
+      "name": "CelebA",
+      "path": "data/CelebA",
+      "modality": "unstructured",
+      "ingestion_mode": "batch",
+      "target_table": "celeba_images",
+      "worker": "image"
+    },
+    {
+      "name": "UCF101",
+      "path": "data/UCF101",
+      "modality": "unstructured",
+      "ingestion_mode": "batch",
+      "target_table": "ucf101_videos",
+      "worker": "video"
+    },
+    {
+      "name": "KafkaStream",
+      "path": "kafka://localhost:9092/csv_topic",
+      "modality": "streaming",
+      "ingestion_mode": "stream",
+      "target_table": "kafka_events",
+      "worker": "streaming"
+    },
+    {
+      "name": "FlinkStream",
+      "path": "flink://local/mobiact",
+      "modality": "streaming",
+      "ingestion_mode": "stream",
+      "target_table": "flink_events",
+      "worker": "streaming"
+    }
+  ]
+}
