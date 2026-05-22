@@ -19,4 +19,3 @@ Then run:
 python run_smartingest.py --config configs/smartingest_sources.json
 ```
 
-The implementation intentionally excludes the Audio worker based on the requested change.
