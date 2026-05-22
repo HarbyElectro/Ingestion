@@ -36,7 +36,7 @@ spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
 spark.sparkContext.setLogLevel("INFO")
 
-csv_file_path = 'E:/MobiAct\MobiAct_Dataset_v2.0/Annotated Data/BSC/BSC_1_1_annotated.csv'
+csv_file_path = 'E:/BSC_1_1_annotated.csv'
 
 # Kafka Producer configuration
 producer_config = {
