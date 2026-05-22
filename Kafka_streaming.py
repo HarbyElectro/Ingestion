@@ -23,8 +23,7 @@ from sparkmeasure import StageMetrics
 from pyspark.sql.functions import from_unixtime, unix_timestamp
 import psutil
 import time
-#os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-streaming-kafka-0-10_2.12:3.2.0,org.apache.spark:spark-sql-kafka-0-10_2.12:3.2.0 pyspark-shell'
-# Kafka broker settings
+
 
 bootstrap_servers = 'localhost:9092'
 topic_name = 'csv_topic'
