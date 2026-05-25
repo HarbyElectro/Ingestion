@@ -1,4 +1,4 @@
-# SmartIngest: Intelligent Data Ingestion Framework
+# SmartIngest: A Unified Framework for Adaptive Data Ingestion and Management in Lakehouse Architectures
 
 SmartIngest is a scalable data ingestion framework for processing heterogeneous data sources in a Lakehouse environment. It supports batch and streaming ingestion for structured, semi-structured, unstructured, and real-time data sources. The framework uses a Smart Agent to coordinate schema discovery, metadata extraction, schema evolution, temporary staging, validation, profiling, quarantine handling, and Lakehouse storage.
 
@@ -356,7 +356,7 @@ If you use this repository in academic work, cite it as:
 
 ```bibtex
 @misc{smartingest2026,
-  title        = {SmartIngest: Intelligent Data Ingestion Framework for Lakehouse Systems},
+  title        = {SmartIngest: A Unified Framework for Adaptive Data Ingestion and Management in Lakehouse Architectures},
   author       = {Ahmed Harby},
   year         = {2026},
   howpublished = {\url{https://github.com/HarbyElectro/Ingestion}},
